@@ -74,7 +74,7 @@ export default {
           categories.push(category.children[j]);
         }
       }
-      return categories.sort(this.sortByName);
+      return categories;
     },
   },
   methods: {
